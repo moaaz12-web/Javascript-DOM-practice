@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+
+        button{
+            background-color:white;
+
+        }
+    </style>
+
+
+    <script>
+        let d1 = document.createElement('div')
+        d1.style.width = "100%";
+        d1.style.backgroundColor ="wheat";
+        d1.style.display = "flex";
+        d1.style.height = "14vh";;
+        document.body.append(d1);
+
+        heads = document.createElement('h2');
+        heads.innerHTML = "SHOPPING SERVIES"
+        heads.style.marginLeft = "21vw";
+        heads.style.marginTop = "2vh"
+        heads.style.color = "crimson"
+        d1.appendChild(heads)
+
+
+        sign = document.createElement('button')
+        sign.innerHTML = "Sign in"
+        sign.style.display = "flex";
+        sign.color = "blue";
+        sign.style.width = "8vw";
+        sign.style.height = "3vh";
+        sign.style.marginTop = "5vh"
+        d1.appendChild(sign)
+
+
+   
+
+        l2 = document.createElement('span');
+        l2.innerHTML = "ABOUT";
+        l2.style.fontsize = "33px"
+        l2.style.width = "12vw";
+        l2.style.marginTop = "5vh"
+
+        // l1.style.color = "wheat";
+        l2.style.marginLeft = "14vh";
+        d1.appendChild(l2)
+
+        l3 = document.createElement('span');
+        l3.innerHTML = "PRODUCTS";
+        l3.style.fontsize = "33px"
+        l3.style.width = "12vw";
+        l3.style.marginTop = "5vh";
+
+        // l1.style.color = "wheat";
+        l3.style.marginLeft = "2vh";
+        d1.appendChild(l3)
+
+        l4 = document.createElement('span');
+        l4.innerHTML = "ABOUT";
+        l4.style.fontsize = "33px"
+        l4.style.width = "12vw";
+        l4.style.marginTop = "5vh"
+
+        // l1.style.color = "wheat";
+        l4.style.marginLeft = "2vh";
+        d1.appendChild(l4)
+
+
+        l5 = document.createElement('span');
+        l5.innerHTML = "SERVICES";
+        l5.style.fontsize = "33px"
+        l5.style.marginTop = "5vh"
+
+        l5.style.width = "12vw";
+        // l1.style.color = "wheat";
+        l5.style.marginLeft = "2vh";
+        d1.appendChild(l5)
+
+
+        let d2 = document.createElement('div')
+        d2.style.width  = "100%";
+        d2.style.height = "70vh";
+        document.body.append(d2);
+
+        
+
+        imgdiv = document.createElement('img');
+        imgdiv.src = "images.jpg";
+        imgdiv.style.width = "100%";
+        imgdiv.style.display = "flex"
+        imgdiv.style.height = "70vh";
+        d2.appendChild(imgdiv)
+
+        d3 = document .createElement('span');
+        d3.innerHTML = "Call us @ 03594387015";
+        d3.style.position = "relative";
+        d3.style.bottom = "464px"
+        d3.style.backgroundColor  = "gray";
+        d3.style.color = "white"
+        d3.style.fontWeight = "bold"
+        d3.style.width = "10vw";
+        d3.style.marginLeft = "75vw";
+
+        d2.appendChild(d3)
+
+
+        box = document.createElement('div');
+        box.style.width = "20vw";
+        box.style.height = "45vh";
+        box.style.backgroundColor = "gray";
+        box.style.position = "relative";
+        box.style.bottom = "270px";
+        box.style.left = "140px"
+        
+        d2.appendChild(box)
+
+        h1 = document.createElement('h3');
+        h1.innerHTML = "STUNNING 6 BED HOUSE IN THE HEART OF THE CITY";
+        h1.style.color = "white";
+        h1.style.marginLeft = '1vw'
+        h1.style.marginTop = '5vh';
+        box.appendChild(h1)
+
+
+        h2 = document.createElement('p');
+        h2.innerHTML = "Buy our products at a cheap and affordable price. You will not get dissapointed at all and you will be satisfied by our customer sevice";
+        h2.style.color = "white";
+        h2.style.marginLeft = '1vw'
+        h2.style.marginTop = '5vh'
+        // h1.style.marginTop = '3vh';
+        box.appendChild(h2)
+
+
+
+        br = document.createElement('hr')
+        br.style.marginTop = '4vh'
+        box.appendChild(br)
+
+
+        h3 = document.createElement('p')
+        h3.innerHTML = "$2,000,000"
+        // h3.style.padding = "30px"
+        h3.style.color = "white"
+        h3.style.fontWeight= "bold"
+        h3.style.paddingTop = "20px"
+        h3.style.paddingLeft = "90px"
+        box.appendChild(h3)
+
+
+        minbox = document.createElement('span')
+        minbox.style.width = "30px";
+        minbox.style.border = "3px solid white"
+        minbox.innerHTML = "ALL ITEMS"
+        minbox.style.color = "white"
+        minbox.style.marginLeft = "82px"
+        minbox.style.position = "relative"
+        minbox.style.top = "30px"
+        box.appendChild(minbox)
+
+        heading = document.createElement('div')
+        heading.innerHTML = "LATEST PROPERTIES FOR SALE";
+        heading.style.color = "blue"
+        heading.style.marginLeft="450px"
+        heading.style.marginTop="190px"
+        heading.style.fontWeight = "bolder"
+        heading.style.fontSize = "24px"
+        document.body.append(heading)
+
+
+
+        conten = document.createElement('main')
+        conten.style.width = "100%"
+        conten.style.height="180vh"
+        document.body.appendChild(conten)
+
+
+        img1 = document.createElement('img')
+        img1.src = "download.jpg";
+        img1.style.width = "240px"
+        img1.style.height = "240px"
+        img1.style.marginTop = "250px"
+        img1.style.marginLeft = "300px"
+        conten.appendChild(img1)
+        img2 = document.createElement('img')
+        img2.src = "download (1).jpg";
+        img2.style.width = "240px"
+        img2.style.marginTop = "150px"
+        img2.style.marginLeft = "6px"
+        img2.style.height = "240px"
+
+        conten.appendChild(img2)
+        img3 = document.createElement('img')
+        img3.src = "download (2).jpg";
+        img3.style.width = "240px"
+        img3.style.marginTop = "150px"
+        img3.style.marginLeft = "6px"
+
+        img3.style.height = "240px"
+        conten.appendChild(img3)
+
+
+        hh1 = document.createElement('span')
+        hh1.innerHTML = "GOWN AVENUE";
+        hh1.style.color = "blue";
+        hh1.style.position = "relative"
+        hh1.style.top = "40px";
+        hh1.style.right = "735px"
+        hh1.style.bottom = "50px";
+        conten.appendChild(hh1)
+
+        hh2 = document.createElement('span')
+        hh2.innerHTML = "QUEENS BAY";
+        hh2.style.color = "blue";
+        hh2.style.position = "relative"
+        hh2.style.top = "40px";
+        hh2.style.right = "603px"
+        hh2.style.bottom = "50px";
+        conten.appendChild(hh2)
+
+        hh3 = document.createElement('span')
+        hh3.innerHTML = "RANDALL CLOVE";
+        hh3.style.color = "blue";
+        hh3.style.position = "relative"
+        hh3.style.top = "40px";
+        hh3.style.right = "455px"
+        conten.appendChild(hh3)
+
+        sub1 = document.createElement('p')
+        sub1.style.width = "100rem";
+        sub1.style.height = "4vh";
+        sub1.style.marginTop = "30px"; 
+        sub1.style.display = "flex";
+        // sub1.style.border = "2px solid red"
+        // sub1.innerHTML = "GGGGG"
+        conten.appendChild(sub1)
+
+
+        pr1 = document.createElement('span')
+        pr1.innerHTML = "$560,000"
+        pr1.style.marginLeft="295px"
+        pr1.style.color = "blue"
+        pr1.style.fontWeight = "bold"
+        sub1.appendChild(pr1)
+
+        pr2 = document.createElement('span')
+        pr2.innerHTML = "$760,000"
+        pr2.style.marginLeft="189px"
+        pr2.style.color = "blue"
+        pr2.style.fontWeight = "bold"
+        sub1.appendChild(pr2)
+
+
+        pr3 = document.createElement('span')
+        pr3.innerHTML = "$960,000"
+        pr3.style.marginLeft="189px"
+        pr3.style.color = "blue"
+        pr3.style.fontWeight = "bold"
+        sub1.appendChild(pr3)
+
+
+
+        sub2 = document.createElement('p')
+        sub2.style.width = "100rem";
+        sub2.style.height = "4vh";
+        sub2.style.marginTop = "5px"; 
+        sub2.style.display = "flex";
+        // sub2.style.border = "2px solid red"
+        // sub1.innerHTML = "GGGGG"
+        conten.appendChild(sub2)
+
+
+        prr1 = document.createElement('span')
+        prr1.innerHTML = "3 bedrooms"
+        prr1.style.marginLeft="295px"
+        prr1.style.color = "gray"
+        prr1.style.fontWeight = "bold"
+        sub2.appendChild(prr1)
+
+        prr2 = document.createElement('span')
+        prr2.innerHTML = "5 bedrooms"
+        prr2.style.marginLeft="171px"
+        prr2.style.color = "gray"
+        prr2.style.fontWeight = "bold"
+        sub2.appendChild(prr2)
+
+
+        prr3 = document.createElement('span')
+        prr3.innerHTML = "7 bedrooms"
+        prr3.style.marginLeft="171px"
+        prr3.style.color = "gray"
+        prr3.style.fontWeight = "bold"
+        sub2.appendChild(prr3)
+        
+
+        sub3 = document.createElement('div')
+        sub3.style.width = "100rem";
+        sub3.style.height = "40vh";
+        sub3.style.marginTop = "5px"; 
+        sub3.style.display = "flex";
+        // sub3.style.border = "2px solid red"
+        // sub1.innerHTML = "GGGGG"
+        conten.appendChild(sub3)
+
+        para1 = document.createElement('div')
+        para1.innerHTML = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+        para1.style.width = "18vw"
+        para1.style.paddingLeft = "293px"
+        sub3.appendChild(para1)
+
+
+        para2 = document.createElement('div')
+        para2.innerHTML = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+        para2.style.width = "18vw"
+        para2.style.paddingLeft = "4px"
+        sub3.appendChild(para2)
+
+
+        para3 = document.createElement('div')
+        para3.innerHTML = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+        para3.style.width = "18vw"
+        para3.style.paddingLeft = "4px"
+        sub3.appendChild(para3)
+
+
+        newdiv = document.createElement('div')
+        newdiv.style.width = "100rem";
+        newdiv.style.marginTop="14vh"
+        conten.appendChild(newdiv)
+        
+
+        read1 = document.createElement('button')
+        read1.innerHTML = "READ MORE"
+        read1.style.color = "blue"
+        read1.style.fontWeight = "bolder"
+        read1.style.border = "1px solid blue"
+        read1.style.borderRadius = "10%"
+        read1.style.fontSize = "20px"
+        read1.style.marginLeft ="337px"
+        newdiv.appendChild(read1)
+
+
+        read2 = document.createElement('button')
+        read2.innerHTML = "READ MORE"
+        read2.style.color = "blue"
+        read2.style.fontWeight = "bolder"
+        read2.style.border = "1px solid blue"
+        read2.style.borderRadius = "10%"
+        read2.style.fontSize = "20px"
+        read2.style.marginLeft ="121px"
+        newdiv.appendChild(read2)
+
+
+        read3 = document.createElement('button')
+        read3.innerHTML = "READ MORE"
+        read3.style.color = "blue"
+        read3.style.fontWeight = "bolder"
+        read3.style.border = "1px solid blue"
+        read3.style.borderRadius = "10%"
+        read3.style.fontSize = "20px"
+        read3.style.marginLeft ="121px"
+        newdiv.appendChild(read3)
+
+
+        heading2 = document.createElement('div')
+        heading2.innerHTML = "LATEST RENTAL PROPERTIES";
+        heading2.style.color = "blue"
+        heading2.style.marginLeft="450px"
+        heading2.style.marginTop="220px"
+    
+        heading2.style.fontWeight = "bolder"
+        heading2.style.fontSize = "24px"
+        conten.append(heading2)
+
+
+        footer = document.createElement('footer')
+        footer.style.width = "100rem";
+        footer.style.backgroundColor = "blue";
+        footer.style.display = "flex";
+        footer.style.marginTop="16vh"
+        footer.style.height = "35vh"
+        document.body.append(footer)
+
+
+        footimg = document.createElement('img')
+        footimg.src = "download (3).jpg"
+        footimg.style.marginLeft = "338px"
+        footer.appendChild(footimg)
+
+        lastdiv = document.createElement('div')
+        lastdiv.style.display = "flex"
+        lastdiv.style.flexDirection  ="column";
+        footer.appendChild(lastdiv)
+
+
+        s1 = document.createElement('span')
+        s1.innerHTML = "Chase Avenue"
+        s1.style.color = "white"
+        s1.style.fontWeight = "bold"
+        s1.style.fontSize = "20px"
+        s1.style.marginTop= "30px"
+        s1.style.marginLeft = "65px"
+        lastdiv.appendChild(s1)
+
+
+        s2 = document.createElement('span')
+        s2.innerHTML = "6 Bedrooms"
+        s2.style.color = "white"
+        s2.style.fontSize = "20px"
+        s2.style.marginTop= "30px"
+        s2.style.marginLeft = "65px"
+        lastdiv.appendChild(s2)
+
+
+        s3 = document.createElement('span')
+        s3.innerHTML = "This is some dummy text that i am writing. My name is Moaaz siddiquim roll no 76. This is WE LAB TASK LAB NO 6, Q1"
+        s3.style.color = "white"
+        s3.style.fontSize = "15px"
+        s3.style.width = "35vw"
+        s3.style.marginTop= "30px"
+        s3.style.marginLeft = "65px"
+        lastdiv.appendChild(s3)
+        
+    </script>
+</body>
+</html>
